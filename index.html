@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁlcoolouGasolina</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="combustivel">
+        <h2 class="h2">Álcool ou Gasolina</h2>
+        
+        <div class="form">
+            <input class=" field" id="gasolina" placeholder="Gasolina ">
+            <input class="field" id="alcool" placeholder="Álcool ">
+            <button class="field" id="calcular" onclick="calcular()">Calcular</button>
+            <button class="field" id="limpar" onclick="limpar()">Limpar</button>
+            <textarea class="field" id="resultado"></textarea>
+        </div>
+        <p>Use  ' . '  em vez de  ' , '</p>
+        <p>Nota: Baseado na regra dos 30%.</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
